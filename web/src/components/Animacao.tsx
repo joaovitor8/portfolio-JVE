@@ -1,6 +1,6 @@
 
 export const Animacao = () => {
   return (
-    <div className="h-screen bg-blue-500"></div>
+    <div className="h-screen"></div>
   )
 }

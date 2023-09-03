@@ -17,14 +17,14 @@ const config: Config = {
         }
       },
       animation: {
-        "rgbAnim": "RGBConfg 4s linear infinite"
+        "rgbAnim": "RGBConfg 30s linear infinite"
       },
       boxShadow: {
         "sombraLadosIguais": "1px 1px 15px"
       },
-      boxShadowColor: {
-        "sombraRGB": "red"
-      }
+      // boxShadowColor: {
+      //   "sombraRGB": "red"
+      // }
     },
   },
   plugins: [],
