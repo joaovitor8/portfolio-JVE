@@ -5,7 +5,7 @@ import axios from "axios"
 import { Repos } from "./Types"
 
 export const Projetos = () => {
-  const [repos, setRepos] = useState([])
+  const [repos, setRepos] = useState<Repos[]>([])
   const [mostrar, setMostrar] = useState(false)
 
   useEffect(() => {
@@ -16,8 +16,8 @@ export const Projetos = () => {
     axios.get("https://api.github.com/users/joaovitor8/repos")
       .then((res) => res.data)
       .then((res) => {
-        const respositorios = []
-        res.map((r) => {
+        const respositorios: Repos[] = []
+        res.map((r: Repos) => {
           if (!r.topics.includes("book")) {
             respositorios.push(r)
           }
