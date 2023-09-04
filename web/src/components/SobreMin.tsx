@@ -1,5 +1,5 @@
 
-export const Sobre = () => {
+export const SobreMin = () => {
   return (
     <div className="h-screen flex items-center justify-center">
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
