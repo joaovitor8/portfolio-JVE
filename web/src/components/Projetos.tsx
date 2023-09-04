@@ -43,7 +43,7 @@ export const Projetos = () => {
       <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-3/4 w-full mb-5 flex flex-col items-center"}>
         <div className="flex flex-wrap justify-center overflow-hidden">
           {repos.map((r, key) => (
-            <div key={key} className="h-44 w-2/5 border m-1 flex flex-col justify-between">
+            <div key={key} className="h-44 w-2/5 bg-gray-800 m-1 flex flex-col justify-between">
               <div><p className="text-xl mt-2 text-center">{r.name}</p></div>
               <div><p className="px-5 text-center">{r.description}</p></div>
               <div className="h-10 flex justify-between">
