@@ -5,7 +5,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Portfólio",
-  description: "",
+  description: "Portfólio de João Vitor Ezequiel",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

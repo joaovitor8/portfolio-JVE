@@ -1,7 +1,7 @@
 
 export const Sobre = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen flex items-center justify-center" id="sobre">
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
         <h2 className="text-3xl">Sobre mim</h2>
         <div className="h-4/5 w-full flex">

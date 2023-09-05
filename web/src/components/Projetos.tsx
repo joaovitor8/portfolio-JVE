@@ -38,8 +38,8 @@ export const Projetos = () => {
   // console.log(repos)
 
   return (
-    <div className={mostrar ? "flex flex-col items-center justify-between" : "h-screen flex flex-col items-center justify-between"}>
-      <h2 className="text-3xl mt-5">Projetos</h2>
+    <div className={mostrar ? "flex flex-col items-center justify-between" : "h-screen flex flex-col items-center justify-between"} id="projetos">
+      <h2 className="text-3xl mt-14">Projetos</h2>
       <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-3/4 w-full mb-5 flex flex-col items-center"}>
         <div className="flex flex-wrap justify-center overflow-hidden">
           {repos.map((r, key) => (

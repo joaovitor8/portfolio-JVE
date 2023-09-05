@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Habilidades = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen flex items-center justify-center" id="habilidades">
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
         <h3 className="text-3xl">Habilidades</h3>
         <div className="h-4/5 w-full flex justify-between">
