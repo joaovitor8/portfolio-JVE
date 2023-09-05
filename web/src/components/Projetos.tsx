@@ -43,22 +43,22 @@ export const Projetos = () => {
       <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-3/4 w-full mb-5 flex flex-col items-center"}>
         <div className="flex flex-wrap justify-center overflow-hidden">
           {repos.map((r, key) => (
-            <div key={key} className="h-44 w-2/5 bg-gray-800 m-1 flex flex-col justify-between rounded-md">
+            <div key={key} className="h-44 w-2/5 bg-gray-800 m-1 flex flex-col justify-between rounded-md max-md:w-3/5">
               <div><p className="text-xl mt-2 text-center">{r.name}</p></div>
               <div><p className="px-5 text-center">{r.description}</p></div>
               <div className="h-10 flex justify-between">
                 <div className="flex flex-wrap items-center justify-center space-x-3 w-1/2">
                   {r.topics.map((t, key) => (
-                    <span key={key}>{t}</span>
+                    <span key={key} className="max-md:text-xs">{t}</span>
                   ))}
                 </div>
-                <button className="px-5 bg-gray-500 rounded-sm"><a href={r.html_url} target="_blank">Ver Repositorio</a></button>
+                <button className="px-5 bg-gray-500 rounded-sm"><a href={r.html_url} target="_blank">Repositorio</a></button>
               </div>
             </div>
           ))}
         </div>
         <div>
-          <button className="h-12 w-40 my-2 border-none rounded-md animate-rgbAnim" onClick={MostarMaisMenos}>Mostar {mostrar ? "Menos" : "Mais"}</button>
+          <button className="h-12 w-40 my-2 border-none rounded-md animate-rgbAnim max-md:mt-5" onClick={MostarMaisMenos}>Mostar {mostrar ? "Menos" : "Mais"}</button>
         </div>
       </div>
     </div>
