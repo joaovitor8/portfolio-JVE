@@ -10,9 +10,8 @@ export const Sobre = () => {
             <p className="">Web</p>
             <p className="">Front-End</p>
           </div>
-          <div className="w-1/2 flex flex-col justify-between p-5 bg-gray-800 rounded-xl shadow-white shadow-sombraLadosIguais max-md:w-[90%]">
+          <div className="w-1/2 p-5 bg-gray-800 rounded-xl shadow-white shadow-sombraLadosIguais max-md:w-[90%]">
             <p className="text-center">Olá, me chamo João Vitor, sou um jovem entusiasta da tecnologia com uma paixão por aprender e crescer na área, atualmente sou aluno na ADA e estou estudando desenvolvimento Front-End com ReactJS.</p>
-            <p>Ultima atualização: ??/??/20??</p>
           </div>
         </div>
       </div>

@@ -23,9 +23,9 @@ export const Header = () => {
 
       <div className="mr-7 flex h-20 items-center justify-end md:hidden">
         {nav ? (
-          <Image src={"/close.png"} alt={""} className="fixed right-[30px] z-50 text-3xl md:hidden" onClick={showNav} width={40} height={40} />
+          <Image src={""} alt={""} className="fixed right-[30px] z-50 text-3xl md:hidden" onClick={showNav} width={40} height={40} />
         ) : (
-          <Image src={"/menu.png"} alt={""} className="text-3xl md:hidden" onClick={showNav} width={40} height={40} />
+          <Image src={""} alt={""} className="text-3xl md:hidden" onClick={showNav} width={40} height={40} />
         )}
       </div>
 
