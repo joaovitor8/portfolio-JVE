@@ -1,6 +1,6 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "quotes": ["error", "double"] // Força o uso de aspas duplas
-  }
+  "extends": [
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/react"
+  ]
 }
