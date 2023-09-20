@@ -12,7 +12,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="h-16 w-full flex items-center justify-between px-10 fixed bg-black">
+    <header className="h-16 w-full flex items-center justify-between px-10 fixed">
       <Link href={"#"}><h1 className="text-4xl">&lt;DEV/&gt;</h1></Link>
       <nav className="space-x-10 max-md:hidden">
         <Link href={"#sobre"} className="hover:underline decoration-green-500">Sobre</Link>

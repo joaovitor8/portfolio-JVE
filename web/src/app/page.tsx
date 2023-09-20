@@ -1,7 +1,7 @@
-import { Animacao } from "@/components/Animacao"
-import { Sobre } from "@/components/Sobre"
-import { Habilidades } from "@/components/Habilidades"
-import { Projetos } from "@/components/Projetos"
+import { Animacao } from "@/components/components/Animacao"
+import { Habilidades } from "@/components/components/Habilidades"
+import { Projetos } from "@/components/components/Projetos"
+import { Sobre } from "@/components/components/Sobre"
 
 export default function Home() {
   return (
