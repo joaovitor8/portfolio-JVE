@@ -46,7 +46,7 @@ export const Projetos = () => {
         <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-3/4 w-full mb-5 flex flex-col items-center"}>
           <div className="flex flex-wrap justify-center overflow-hidden">
             {repos.map((r, key) => (
-              <Card key={key} className="w-2/5 m-1">
+              <Card key={key} className="w-2/5 m-1 max-md:w-[95%]">
                 <CardHeader>
                   <CardTitle>{r.name}</CardTitle>
                   <CardDescription>{r.description}</CardDescription>

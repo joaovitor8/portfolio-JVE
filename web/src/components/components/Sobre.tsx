@@ -11,7 +11,7 @@ export const Sobre = () => {
             <p className="text-6xl">Developer</p>
             <MaquinaDeEscrever texto="Web / Front-End" />
           </div>
-          <Card className="w-1/2 p-5">
+          <Card className="w-1/2 p-5 max-md:w-[95%]">
             <p className="text-center">Olá, me chamo João Vitor, sou um jovem entusiasta da tecnologia com uma paixão por aprender e crescer na área, atualmente sou aluno na ADA e estou estudando desenvolvimento Front-End com ReactJS.</p>
           </Card>
         </div>

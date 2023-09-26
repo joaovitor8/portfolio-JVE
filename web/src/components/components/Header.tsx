@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import Image from "next/image"
+
+import { Menu, X } from "lucide-react"
 
 export const Header = () => {
   const [nav, setNav] = useState(false)
@@ -23,9 +24,9 @@ export const Header = () => {
 
       <div className="mr-7 flex h-20 items-center justify-end md:hidden">
         {nav ? (
-          <Image src={""} alt={""} className="fixed right-[30px] z-50 text-3xl md:hidden" onClick={showNav} width={40} height={40} />
+          <X onClick={showNav} className="fixed right-[68px] top-[20px] z-50"/>
         ) : (
-          <Image src={""} alt={""} className="text-3xl md:hidden" onClick={showNav} width={40} height={40} />
+          <Menu onClick={showNav}/>
         )}
       </div>
 

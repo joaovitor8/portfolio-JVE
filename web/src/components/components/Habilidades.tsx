@@ -7,7 +7,7 @@ export const Habilidades = () => {
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
         <h2 className="text-3xl max-md:mb-7">Habilidades</h2>
         <div className="h-4/5 w-full flex justify-between max-md:flex-col max-md:items-center max-md:space-y-4">
-          <Card className="w-1/4 max-md:h-52 max-md:w-3/5">
+          <Card className="w-1/4 max-md:w-[90%]">
             <CardHeader className="text-3xl text-center">
               <CardTitle>Linguagens</CardTitle>
             </CardHeader>
@@ -20,7 +20,7 @@ export const Habilidades = () => {
             </CardContent>
           </Card>
 
-          <Card className="w-1/4 max-md:h-52 max-md:w-3/5">
+          <Card className="w-1/4 max-md:w-[90%]">
             <CardHeader className="text-3xl text-center">
               <CardTitle>Tecnologias</CardTitle>
             </CardHeader>
@@ -32,7 +32,7 @@ export const Habilidades = () => {
             </CardContent>
           </Card>
 
-          <Card className="w-1/4 max-md:h-52 max-md:w-3/5">
+          <Card className="w-1/4 max-md:w-[90%]">
             <CardHeader className="text-3xl text-center">
               <CardTitle>Ferramentas</CardTitle>
             </CardHeader>
