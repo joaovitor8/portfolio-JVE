@@ -1,10 +1,11 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import axios from "axios"
+import { Button } from "@/components/ui/button"
+
 import { useEffect, useState } from "react"
 import { Repos } from "../outros/Types"
+import axios from "axios"
 
 export const Projetos = () => {
   const [repos, setRepos] = useState<Repos[]>([])
@@ -40,13 +41,13 @@ export const Projetos = () => {
   // console.log(repos)
 
   return (
-    <div className={mostrar ? "flex flex-col items-center justify-center" : "h-screen flex flex-col items-center justify-center"} id="projetos">
+    <div className={mostrar ? "min-h-screen flex flex-col items-center justify-center" : "h-screen flex flex-col items-center justify-center"} id="projetos">
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
         <h2 className="text-3xl">Projetos</h2>
         <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-3/4 w-full mb-5 flex flex-col items-center"}>
           <div className="flex flex-wrap justify-center overflow-hidden">
             {repos.map((r, key) => (
-              <Card key={key} className="w-2/5 m-1 max-md:w-[95%]">
+              <Card key={key} className="w-[400px] m-1">
                 <CardHeader>
                   <CardTitle>{r.name}</CardTitle>
                   <CardDescription>{r.description}</CardDescription>
