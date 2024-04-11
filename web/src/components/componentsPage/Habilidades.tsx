@@ -6,21 +6,21 @@ export const Habilidades = () => {
     <div className="h-screen flex items-center justify-center" id="habilidades">
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
         <h2 className="text-3xl">Habilidades</h2>
-        <div className="h-4/5 w-full flex justify-between">
-          <Card className="w-[300px]">
+        <div className="h-4/5 w-full flex justify-evenly">
+          <Card className="w-[350px]">
             <CardHeader className="text-3xl text-center">
               <CardTitle>Linguagens</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-wrap justify-center">
-              <Image src={"/html5.png"} height={70} width={70} alt={""} className="hover:bg-blue-500 rounded-md p-3"/>
-              <Image src={"/css3.png"} height={70} width={70} alt={""} className="hover:bg-orange-500 rounded-md p-3"/>
+              <Image src={"/html5.png"} height={70} width={70} alt={""} className="hover:bg-orange-500 rounded-md p-3"/>
+              <Image src={"/css3.png"} height={70} width={70} alt={""} className="hover:bg-blue-500 rounded-md p-3"/>
               <Image src={"/javascript.png"} height={70} width={70} alt={""} className="hover:bg-yellow-500 rounded-md p-3"/>
               <Image src={"/typescript.png"} height={70} width={70} alt={""} className="hover:bg-blue-600 rounded-md p-3"/>
-              {/* <Image src={"/python.png"} height={70} width={70} alt={""} className="hover:bg-gradient-to-br from-blue-600 to-yellow-600 rounded-md p-3"/> */}
+              <Image src={"/python.png"} height={70} width={70} alt={""} className="hover:bg-gradient-to-br from-blue-600 to-yellow-600 rounded-md p-3"/>
             </CardContent>
           </Card>
 
-          <Card className="w-[300px]">
+          <Card className="w-[350px]">
             <CardHeader className="text-3xl text-center">
               <CardTitle>Tecnologias</CardTitle>
             </CardHeader>
@@ -32,7 +32,7 @@ export const Habilidades = () => {
             </CardContent>
           </Card>
 
-          <Card className="w-[300px]">
+          <Card className="w-[350px]">
             <CardHeader className="text-3xl text-center">
               <CardTitle>Ferramentas</CardTitle>
             </CardHeader>
