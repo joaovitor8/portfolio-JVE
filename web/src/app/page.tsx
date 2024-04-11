@@ -6,7 +6,7 @@ import { Sobre } from "@/components/componentsPage/Sobre"
 export default function Home() {
   return (
     <main>
-      <Animacao />
+      {/* <Animacao /> */}
       <Sobre />
       <Habilidades />
       <Projetos />
