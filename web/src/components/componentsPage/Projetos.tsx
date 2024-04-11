@@ -41,21 +41,21 @@ export const Projetos = () => {
   // console.log(repos)
 
   return (
-    <div className={mostrar ? "min-h-screen flex flex-col items-center justify-center" : "h-screen flex flex-col items-center justify-center"} id="projetos">
+    <div className={mostrar ? "min-h-screen flex flex-col items-center justify-center" : "flex flex-col items-center justify-center"} id="projetos">
       <div className="h-4/5 w-[95%] flex flex-col items-center justify-between p-5">
         <h2 className="text-3xl">Projetos</h2>
-        <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-3/4 w-full mb-5 flex flex-col items-center"}>
+        <div className={mostrar ? "w-full mb-5 flex flex-col items-center mt-20" : "h-[550px] w-full mb-5 mt-20 flex flex-col items-center"}>
           <div className="flex flex-wrap justify-center overflow-hidden">
             {repos.map((r, key) => (
-              <Card key={key} className="w-[400px] m-1">
+              <Card key={key} className="h-60 w-[400px] m-1 flex flex-col justify-between">
                 <CardHeader>
                   <CardTitle>{r.name}</CardTitle>
                   <CardDescription>{r.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="space-x-2">
-                  {r.topics.map((t, key) => (
+                  {/* {r.topics.map((t, key) => (
                     <span key={key}>{t}</span>
-                  ))}
+                  ))} */}
                 </CardContent>
                 <CardFooter>
                   <Button><a href={r.html_url} target="_blank">Repositorio</a></Button>
