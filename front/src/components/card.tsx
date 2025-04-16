@@ -1,6 +1,7 @@
 "use client"
 
-import { MouseEventHandler, PropsWithChildren } from "react"
+// import { MouseEventHandler, PropsWithChildren } from "react"
+import { PropsWithChildren } from "react"
 
 export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
