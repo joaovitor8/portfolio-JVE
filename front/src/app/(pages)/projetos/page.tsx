@@ -32,7 +32,7 @@ export default function Projetos() {
   // console.log(repos)
 
   return(
-    <div className="relative min-h-screen bg-gradient-to-tl from-zinc-900 via-zinc-400/10 to-zinc-900">
+    <div className="relative min-h-screen bg-linear-to-tl from-zinc-900 via-zinc-400/10 to-zinc-900">
       <Navigation/>
       <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-3 px-20 pt-20">
         {repos.map((r, key) => (
