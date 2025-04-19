@@ -1,25 +1,22 @@
-import { Navigation } from "@/components/nav"
+// import { Navigation } from "@/components/nav"
 
 export default function Sobre() {
 	return (
-    <main>
-      <Navigation />
+    <main className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+      <div className="bg-red-500 flex w-full mx-10">
+        <div className="w-1/2 text-justify mx-10">
+          <p>Um pouco sobre mim</p>
 
-      <div>
-        <p>Um pouco sobre mim</p>
+          <p>Meu nome é João Vitor Ezequiel, sou estudante de Ciência da Computação com foco em Tecnologia da Informação e Ciência de Dados. Estou construindo uma base sólida em programação, análise de dados e desenvolvimento de soluções com impacto prático, combinando conhecimentos técnicos com experiência em ambientes organizacionais.</p>
+          <p>Tenho domínio em Python e SQL, linguagens que utilizo para trabalhar com manipulação de dados, automação de processos e construção de insights analíticos. Também venho aprimorando minhas habilidades em visualização de dados, lógica de programação, estruturas de dados e fundamentos de inteligência artificial.</p>
+          <p>Minha formação técnica inclui a Ada Tech, onde completei uma jornada intensiva em desenvolvimento web, com foco em JavaScript, React e lógica aplicada, a Alura onde estou focando o apredizado em dados, além da graduação atual em Ciência da Computação pela Descomplica, onde estudo sistemas, algoritmos, redes e ciência de dados com profundidade.</p>
+          <p>Antes da tecnologia, atuei nas áreas administrativa e logística, onde aprendi na prática a importância de organização, análise de processos, responsabilidade e eficiência. Na Centauro, otimizei o gerenciamento de estoques. Já na Usina Alto Alegre, digitalizei e organizei dados administrativos, contribuindo com melhorias operacionais.</p>
+          <p>Hoje, meu principal objetivo é atuar na área de dados — seja com análise, engenharia ou ciência aplicada — mas também estou aberto a oportunidades em desenvolvimento e tecnologia em geral, onde posso aprender, colaborar e crescer junto a times multidisciplinares.</p>
+        </div>
 
-        <p>Olá! Me chamo João Vitor, sou estudante de Ciência da Computação e apaixonado por tecnologia.
-          Atualmente, estou focado em desenvolver minhas habilidades em Front-End com React.js e JavaScript, além de explorar o mundo da Ciência de Dados com Python e SQL.
-
-          Minha formação técnica e acadêmica, somada à experiência profissional em ambientes organizacionais, me proporcionou uma base sólida em organização, lógica de programação e trabalho em equipe.
-          Já atuei em setores administrativos e logísticos, onde aprimorei minha capacidade de resolver problemas, seguir processos e manter um olhar atento aos detalhes — habilidades que hoje levo para o mundo da tecnologia.
-
-          No meu tempo livre, gosto de estudar novas ferramentas, construir projetos próprios e contribuir em iniciativas que envolvam inovação e impacto social.
-
-          Tecnologias com as quais trabalho:
-          React.js | JavaScript | Python | SQL | HTML/CSS | Git
-
-          Estou em busca de oportunidades para crescer na área de tecnologia, contribuir com soluções criativas e aprender sempre.</p>
+        <div>
+          <p>Tecnologias</p>
+        </div>
       </div>
     </main>
   )
