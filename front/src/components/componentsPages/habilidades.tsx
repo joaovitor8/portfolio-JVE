@@ -1,8 +1,9 @@
 
-export default function Habilidades() {
-	return (
+
+export const Habilidades = () => {
+  return (
     <main className="h-screen w-screen flex flex-col items-center justify-center">
-      <div className="space-y-12">
+      <div className="space-y-16">
         <div className="text-center">
           <h2 className="text-6xl">Habilidades</h2>
           <p className="text-zinc-400">Tecnologias, Ferramentas e Bibliotecas que tenho conhecimento</p>
